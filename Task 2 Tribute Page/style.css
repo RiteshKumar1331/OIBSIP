@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --mywhite: rgb(198, 197, 197);
+  --myblack: rgb(30, 30, 30);
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: var(--mywhite);
+}
+
+.quote {
+  color: var(--mywhite);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container-one {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  background-color: var(--myblack);
+}
+
+.about-container {
+  margin: auto;
+  width: 90%;
+  background-color: var(--myblack);
+}
+
+.about {
+  margin: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: var(--mywhite);
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-image {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 460px;
+  height: 460px;
+}
+
+
+.container-two {
+  color: var(--mywhite);
+  background-color: var(--myblack);
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+h3 {
+  color: var(--mywhite);
+  margin: auto;
+  font-size: 24px;
+}
+
+ul {
+  margin: auto;
+}
+
+
+li {
+  font-weight: 600;
+}
+
+.wikipedia-link {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer {
+  color: var(--mywhite);
+  background-color: var(--myblack);
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
